@@ -1,0 +1,223 @@
+ body{
+    background-image: url(../imagem/fundo1.jpg);
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../imagem/fundo1.jpg);
+    height: 120px;
+    max-width: 600px;
+    float: left;
+    text-align: justify;
+    width: 100%;
+    background-color: #303232;
+    box-shadow:rgba(14, 82, 12, 0.55);
+    box-shadow: 10px 15px 10px 10px rgb(0, 0, 0), 10px 30px 20px 10px rgb(0, 0, 0); 
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Cookie', cursiva;
+    line-height: 0px;
+    color:rgb(255, 255, 255);
+    
+}
+
+ul{
+    list-style-type: none;
+    max-width: 655px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(38, 39, 38, 0.963);
+    width: 100%;
+    margin-left: auto;
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.626); 
+    position:sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
+    
+
+}
+    
+li{
+    float: left;
+
+
+}
+li a{
+    display: block;
+    color: white;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: #131414;
+    
+}
+.active {
+    background-color: #131413;
+  
+}
+
+#img_principal{
+    margin-top: 70PX;
+    margin-left:100px ;
+    width: 550px;
+    border-radius: 0 300PX;
+    box-shadow:rgba(14, 82, 12, 0.55);
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.626); 
+    
+    
+} 
+
+#cadastro{
+    background-color:rgb(0, 0, 0);
+    background-image: url(../imagem/lua.png);
+    padding: 20px;
+    max-width: 350px;
+    color: #ffffff;
+    text-shadow: #131413;
+    box-sizing: border-box;
+    float:right;
+    margin-right: 150px;
+    margin-top: 195px;
+    box-shadow:rgba(4, 9, 4, 0.55);
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.626); 
+
+}
+
+.fromContainer{
+    background-color: #000000bb;
+    padding:20px;   
+}
+.mb{
+    font-size: 20px;
+    padding: 10px;
+    text-align: justify;
+    line-height: 35px;
+}
+input, select{
+    width: 70%;
+    box-sizing: border-box;
+    padding: 15px;
+    border:none;
+    margin-bottom:10px;
+    background-color: black;
+    
+}
+input[type="submit"]{
+
+    color: rgb(255, 255, 255);
+    background-color:rgba(65, 65, 65, 0.886);
+    font-weight:bold;
+
+}
+
+select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: black;
+    color: white;
+  
+}
+section{
+    margin:0;
+    padding:0;
+}
+#portfolio{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Cookie', cursiva;
+    line-height: 0px;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px ;
+}
+
+
+#img1 {
+    text-align: center;
+    
+}
+#img2 {
+    text-align: center;
+   
+}
+#img3 {
+    text-align: center;
+    
+}
+.img{
+    margin-right: 50px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 350px;
+    /* border-radius: 0 300PX;  */
+    box-shadow:rgba(14, 82, 12, 0.55);
+    box-shadow: 10px 15px 10px 10px rgb(0, 0, 0), 15px 25px 20px 0px rgb(0, 0, 0); 
+    box-sizing: border-box;
+} 
+.img_radius{
+    border-radius: 0 0 0 100px;
+    height: 400px;
+}
+.img_radius_2{
+    border-radius: 0 0 100px 0;
+    height: 400px;
+
+}
+
+.paragrafos{
+    font-size: 40px;
+    margin-top: 100px;
+    
+}
+table{
+    margin: auto;
+    width: 70%;
+    border-spacing: 30px;
+    background-color: #303232b1;
+    box-shadow:rgba(4, 9, 4, 0.55);
+    box-shadow: 0 15px 10px 10px rgba(0, 0, 0, 0.2), 15px 6px 40px 0px rgba(0, 0, 0, 0.626); 
+    margin-bottom: 10px;
+   
+    
+}
+ th, td {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+#conteinerwhats{
+    float: right;
+    position: sticky;
+    bottom: 0;
+    background-color:#000000ba;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow:rgba(4, 9, 4, 0.55);
+    box-shadow: 0 15px 10px 10px rgba(0, 0, 0, 0.2), 15px 6px 40px 0px rgba(0, 0, 0, 0.626); 
+    
+}
+.whats{
+ margin-left: 50px;
+}
+.whats1{
+    padding: 10px;
+}
+
+footer{
+    background-color: rgba(32, 35, 37, 0.909);
+    margin-top: 90px;  
+    max-width: 100%;
+    
+} 
+
+@media screen ad(mim) {
+    
+}
