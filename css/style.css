@@ -5,8 +5,8 @@
 }
 header{
     background-image: url(../imagem/fundo1.jpg);
-    height: 120px;
-    max-width: 600px;
+    height: 60%;
+    max-width:48%;
     float: left;
     text-align: justify;
     width: 100%;
@@ -25,7 +25,7 @@ h1{
 
 ul{
     list-style-type: none;
-    max-width: 655px;
+    max-width: 50%;
     height: 50px;
     margin: 0;
     padding: 0;
