@@ -237,7 +237,7 @@ footer{
 }
 @media only screen and(max-device-width:600px) {ul
     {
-    max-width: 50%;
+    max-width: 100%;
     height: 50px;
     width: 100%;
 
