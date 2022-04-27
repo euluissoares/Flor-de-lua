@@ -64,7 +64,8 @@ li a:hover:not(.active){
 #img_principal{
     margin-top: 70PX;
     margin-left:100px ;
-    width: 550px;
+    width: 45%;
+    height: auto;
     border-radius: 0 300PX;
     box-shadow:rgba(14, 82, 12, 0.55);
     box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.626); 
@@ -97,6 +98,7 @@ li a:hover:not(.active){
     padding: 10px;
     text-align: justify;
     line-height: 35px;
+    background-color: #131413ad;
 }
 input, select{
     width: 70%;
@@ -183,8 +185,14 @@ table{
     box-shadow:rgba(4, 9, 4, 0.55);
     box-shadow: 0 15px 10px 10px rgba(0, 0, 0, 0.2), 15px 6px 40px 0px rgba(0, 0, 0, 0.626); 
     margin-bottom: 10px;
-   
     
+}
+caption{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Cookie', cursiva;
+    color:rgba(5, 4, 4, 0.794);
+    text-shadow: 1px 1px 1px ;
 }
  th, td {
     border: 1px solid black;
@@ -212,6 +220,8 @@ table{
 }
 
 footer{
+    
+     height: 200px;
     background-color: rgba(32, 35, 37, 0.909);
     margin-top: 90px;  
     max-width: 100%;
