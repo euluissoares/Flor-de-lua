@@ -231,7 +231,7 @@ footer{
 @media only screen and(max-device-width:600px) {header
     {
         height: 60%;
-        max-width:48%;
+        max-width:70%;
         width: 100%;
     }
 }
