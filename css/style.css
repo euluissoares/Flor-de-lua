@@ -5,7 +5,7 @@
 }
 header{
     background-image: url(../imagem/fundo1.jpg);
-    height: 60%;
+    height: 100%;
     max-width:48%;
     float: left;
     text-align: justify;
@@ -228,14 +228,14 @@ footer{
     
 } 
 
-@media only screen and(max-device-width:600px) {header
+@media only screen and(min-device-width:600px) {header
     {
         height: 60%;
         max-width:70%;
         width: 100%;
     }
 }
-@media only screen and(max-device-width:600px) {ul
+@media only screen and(min-device-width:600px) {ul
     {
     max-width: 100%;
     height: 50px;
