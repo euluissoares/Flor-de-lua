@@ -66,7 +66,7 @@ li a:hover:not(.active){
 #img_principal{
     margin-top: 10%;
     margin-left: 5%;
-    width: 270px;
+    width: 250px;
     height: auto;
     border-radius: 0 150PX;
     box-shadow:rgba(14, 82, 12, 0.55);
@@ -201,7 +201,7 @@ caption{
     float: right;
     position: sticky;
     bottom: 10px;
-    background-color:#000000ba;
+    background-color:#000000db;
     font-size: 15px;
     color: #ffffff;
     border-radius: 10px;
@@ -219,7 +219,7 @@ caption{
 
 footer{
     
-    height: 200px;
+    height: auto;
    background-color: rgba(32, 35, 37, 0.909);
    margin-top: 90px;  
    max-width: 100%;
