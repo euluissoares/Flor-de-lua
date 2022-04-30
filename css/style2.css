@@ -66,7 +66,7 @@ li a:hover:not(.active){
 #img_principal{
     margin-top: 10%;
     margin-left: 5%;
-    width: 55%;
+    width: 270px;
     height: auto;
     border-radius: 0 150PX;
     box-shadow:rgba(14, 82, 12, 0.55);
@@ -167,3 +167,61 @@ select{
     height: 170px;
 
 }
+
+.paragrafos{
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+table{
+    margin: auto;
+    width: 90%;
+    border-spacing: 10px;
+    background-color: #303232b1;
+    box-shadow:rgba(4, 9, 4, 0.55);
+    box-shadow: 0 15px 10px 10px rgba(0, 0, 0, 0.2), 15px 6px 40px 0px rgba(0, 0, 0, 0.626); 
+    margin-bottom: 10px;
+    
+}
+caption{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Cookie', cursiva;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px ;
+
+}
+ th, td {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+#conteinerwhats{
+    float: right;
+    position: sticky;
+    bottom: 10px;
+    background-color:#000000ba;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow:rgba(4, 9, 4, 0.55);
+    box-shadow: 0 15px 10px 10px rgba(0, 0, 0, 0.2), 15px 6px 40px 0px rgba(0, 0, 0, 0.626); 
+    
+}
+.whats{
+ margin-left: 50px;
+}
+.whats1{
+    padding: 10px;
+}
+
+
+footer{
+    
+    height: 200px;
+   background-color: rgba(32, 35, 37, 0.909);
+   margin-top: 90px;  
+   max-width: 100%;
+   
+} 
