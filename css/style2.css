@@ -76,17 +76,18 @@ li a:hover:not(.active) {
 }
 
 #cadastro {
-    background-image: url(../imagem/lua.png);
+    
+    background-image:url( ../imagem/fundo1.jpg);
     padding: 15px;
     max-width: 150px;
     color: #ffffff;
     box-sizing: border-box;
     float: right;
     margin-left: auto;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top: 10px;
     box-shadow: rgba(4, 9, 4, 0.55);
-    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.626);
+    box-shadow: 3px 10px 10px 10px rgb(0, 0, 0), 10px 15px 10px 0px rgb(0, 0, 0);
 
 }
 
@@ -232,7 +233,7 @@ td {
 
 
 footer {
-    height: 250px;
+    height: 190px;
     background-color: rgba(32, 35, 37, 0.909);
     margin-top: 90px;
     max-width: 100%;
@@ -243,14 +244,16 @@ footer {
 }
 
 h3{
-    text-align: center;
-    margin: 0;
+   text-align: center;
     padding: 0;
+    margin: 0;
 }
 
 #sobre{
-max-width: 50%;
-border-right: #363434cc 2px solid;
+max-width: 70%;
+text-align: center;
+margin: 0;
+padding: 10px;
 
 }
 
@@ -260,27 +263,11 @@ border-right: #363434cc 2px solid;
 
 }
 
-
-#midias{
-    float: right;
-    max-width: 50%;
-    
-    
-}
-
-h4{
-    margin-right: 50%;
-    font-size: 25px;
-    font-family: 'Cookie', cursiva;
-    color: rgb(244, 220, 220);
-    margin: 0;
-    padding: 0;
-
-}
-
 .insta{
-  
-
+    float: right;
+    max-width: 80%;
+    margin-right: 10px;
+   
 }
 
 
