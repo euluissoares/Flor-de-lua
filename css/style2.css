@@ -28,7 +28,7 @@ h1 {
 ul {
 
     list-style-type: none;
-    max-width:  51%;
+    max-width:  53%;
     height: 38px;
     margin: 0;
     padding: 0;
@@ -243,23 +243,15 @@ footer {
 }
 
 h3{
+    text-align: center;
     margin: 0;
     padding: 0;
 }
 
 #sobre{
 max-width: 50%;
-border-right: #363434b4 2px solid;
+border-right: #363434cc 2px solid;
 
-}
-
-#midias{
-    float: right;
-    max-width: 50%;
-   
-    
-
-    
 }
 
 #imgfooter{
@@ -267,3 +259,28 @@ border-right: #363434b4 2px solid;
     float: left;
 
 }
+
+
+#midias{
+    float: right;
+    max-width: 50%;
+    
+    
+}
+
+h4{
+    margin-right: 50%;
+    font-size: 25px;
+    font-family: 'Cookie', cursiva;
+    color: rgb(244, 220, 220);
+    margin: 0;
+    padding: 0;
+
+}
+
+.insta{
+  
+
+}
+
+
