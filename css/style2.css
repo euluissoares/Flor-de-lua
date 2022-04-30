@@ -22,3 +22,40 @@ h1{
     color:rgb(255, 255, 255);
     
 }
+
+ul{
+    list-style-type: none;
+    max-width: 50%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(38, 39, 38, 0.963);
+    width: 60%;
+    margin-left: auto;
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.626); 
+    position:sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    
+
+}
+li{
+    float: left;
+
+
+}
+li a{
+    display: block;
+    color: white;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: #131414;
+    
+}
+.active {
+    background-color: #131413;
+  
+}
