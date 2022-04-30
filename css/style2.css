@@ -1,226 +1,245 @@
-body{
+body {
     background-image: url(../imagem/fundo1.jpg);
     margin: 0;
     padding: 0;
 }
 
-header{
+header {
     background-image: url(../imagem/fundo1.jpg);
     height: 60%;
-    max-width:38%;
+    max-width: 40%;
     float: left;
     text-align: justify;
     width: 100%;
     background-color: #303232;
-    box-shadow:rgba(14, 82, 12, 0.55);
-    box-shadow: 10px 15px 10px 10px rgba(0, 0, 0, 0.2), 10px 6px 20px 10px rgba(0, 0, 0, 0.626); 
+    box-shadow: rgba(14, 82, 12, 0.55);
+    box-shadow: 10px 15px 10px 10px rgba(0, 0, 0, 0.2), 10px 6px 20px 10px rgba(0, 0, 0, 0.626);
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 30px;
     font-family: 'Cookie', cursiva;
     line-height: 0px;
-    color:rgb(255, 255, 255);
-    
+    color: rgb(255, 255, 255);
+
 }
 
-ul{
+ul {
 
     list-style-type: none;
-    max-width: 57%;
+    max-width:  51%;
     height: 38px;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgba(38, 39, 38, 0.963);
-    width: 60%;
+    width: 51%;
     margin-left: auto;
-    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.626); 
-    position:sticky;
-    position: -webkit-sticky; 
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.626);
+    position: sticky;
+    position: -webkit-sticky;
     top: 0;
-    
+
 }
 
-li{
+li {
     float: left;
 }
 
-li a{
+li a {
     display: block;
     color: white;
     padding: 10px 9px;
     text-decoration: none;
 }
 
-li a:hover:not(.active){
+li a:hover:not(.active) {
     background-color: #131414;
-    
+
 }
 
 .active {
     background-color: #131413;
-  
+
 }
 
-#img_principal{
+#img_principal {
     margin-top: 10%;
     margin-left: 5%;
     width: 210px;
     height: auto;
     border-radius: 0 120PX;
-    box-shadow:rgba(14, 82, 12, 0.55);
-    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.626); 
+    box-shadow: rgba(14, 82, 12, 0.55);
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 10px rgba(0, 0, 0, 0.626);
 
-} 
+}
 
-#cadastro{
+#cadastro {
     background-image: url(../imagem/lua.png);
-    padding: 20px;
+    padding: 15px;
     max-width: 150px;
     color: #ffffff;
     box-sizing: border-box;
-    float:right;
+    float: right;
     margin-left: auto;
     margin-right: 10px;
     margin-top: 10px;
-    box-shadow:rgba(4, 9, 4, 0.55);
-    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.626); 
+    box-shadow: rgba(4, 9, 4, 0.55);
+    box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.626);
 
 }
 
-.mb{
+.mb {
     font-size: 10px;
-    padding: 10px;
-    text-align: justify;
-    line-height: 15px;
+    padding: 5px;
+    line-height: 12px;
     background-color: #131413ad;
 }
 
-input, select{
-    width: 80%;
+input,
+select {
+    width: 95%;
     box-sizing: border-box;
     padding: 5px;
-    border:none;
-    margin-bottom:8px;
+    border: none;
+    margin-bottom: 8px;
     background-color: rgb(0, 0, 0);
     color: white;
     font-size: 10px;
+    
 }
 
-input[type="submit"]{
+input[type="submit"] {
 
     color: rgb(255, 255, 255);
-    background-color:rgba(65, 65, 65, 0.886);
-    font-weight:bold;
+    background-color: rgba(65, 65, 65, 0.886);
+    font-weight: bold;
 
 }
-select{
+
+select {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     background-color: black;
     color: white;
-  
+
 }
 
-#portfolio{
+#portfolio {
     margin-top: 25%;
     text-align: center;
     font-size: 40px;
     font-family: 'Cookie', cursiva;
     line-height: 0px;
-    color:rgb(255, 255, 255);
-    text-shadow: 1px 1px 1px ;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px;
 }
+
+/* section {
+
+    margin-left: 15px;
+} */
 
 
 #img1 {
     text-align: center;
-    
+
 }
+
 #img2 {
     text-align: center;
-   
+
 }
+
 #img3 {
     text-align: center;
-    
+
 }
-.img{
+
+.img {
     margin-right: 5%;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+
     width: 100px;
     height: 140px;
-    box-shadow: 5px 10px 5px 5px rgb(0, 0, 0), 10px 15px 10px 0px rgb(0, 0, 0); 
+    box-shadow: 5px 10px 5px 5px rgb(0, 0, 0), 10px 15px 10px 0px rgb(0, 0, 0);
     box-sizing: border-box;
-} 
-.img_radius{
-    border-radius: 0 0 0 50px;
-    height:170px;
 }
-.img_radius_2{
+
+.img_radius {
+    border-radius: 0 0 0 50px;
+    height: 170px;
+}
+
+.img_radius_2 {
     border-radius: 0 0 50px 0;
     height: 170px;
 
 }
 
-.paragrafos{
+.paragrafos {
     font-size: 20px;
     margin-top: 30px;
-    
+
 }
-table{
+
+table {
     margin: auto;
     width: 90%;
     border-spacing: 10px;
     background-color: #303232b1;
-    box-shadow:rgba(4, 9, 4, 0.55);
-    box-shadow: 0 15px 10px 10px rgba(0, 0, 0, 0.2), 15px 6px 40px 0px rgba(0, 0, 0, 0.626); 
+    box-shadow: rgba(4, 9, 4, 0.55);
+    box-shadow: 0 15px 10px 10px rgba(0, 0, 0, 0.2), 15px 6px 40px 0px rgba(0, 0, 0, 0.626);
     margin-bottom: 10px;
-    
+
 }
-caption{
+
+caption {
     text-align: center;
     font-size: 40px;
     font-family: 'Cookie', cursiva;
-    color:rgb(255, 255, 255);
-    text-shadow: 1px 1px 1px ;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px;
 
 }
- th, td {
+
+th,
+td {
     border: 1px solid black;
     border-radius: 5px;
     text-align: center;
-    
+
 }
-#conteinerwhats{
+
+#conteinerwhats {
     float: right;
     position: sticky;
     bottom: 10px;
-    background-color:#000000db;
+    background-color: #000000db;
     font-size: 15px;
     color: #ffffff;
     border-radius: 10px;
-    box-shadow:rgba(4, 9, 4, 0.55);
-    box-shadow: 0 15px 10px 10px rgba(0, 0, 0, 0.2), 15px 6px 40px 0px rgba(0, 0, 0, 0.626); 
-    
+    box-shadow: rgba(4, 9, 4, 0.55);
+    box-shadow: 0 15px 10px 10px rgba(0, 0, 0, 0.2), 15px 6px 40px 0px rgba(0, 0, 0, 0.626);
+
 }
-.whats{
- margin-left: 50px;
+
+.whats {
+    margin-left: 50px;
 }
-.whats1{
+
+.whats1 {
     padding: 10px;
 }
 
 
-footer{
+footer {
     height: 250px;
     background-color: rgba(32, 35, 37, 0.909);
-    margin-top: 90px;  
+    margin-top: 90px;
     max-width: 100%;
-   
-} 
+
+}
