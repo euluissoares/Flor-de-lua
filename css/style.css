@@ -13,7 +13,7 @@ header{
     background-color: #303232;
     box-shadow:rgba(14, 82, 12, 0.55);
     box-shadow: 10px 15px 10px 10px rgb(0, 0, 0), 10px 30px 20px 10px rgb(0, 0, 0); 
-}
+/* }
 h1{
     text-align: center;
     font-size: 100px;
@@ -35,7 +35,7 @@ ul{
     margin-left: auto;
     box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.626); 
     position:sticky;
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky; 
     top: 0;
     
 
@@ -159,7 +159,7 @@ section{
     width: 250px;
     height: 350px;
     /* border-radius: 0 300PX;  */
-    box-shadow:rgba(14, 82, 12, 0.55);
+    /* box-shadow:rgba(14, 82, 12, 0.55);
     box-shadow: 10px 15px 10px 10px rgb(0, 0, 0), 15px 25px 20px 0px rgb(0, 0, 0); 
     box-sizing: border-box;
 } 
@@ -194,6 +194,7 @@ caption{
     font-family: 'Cookie', cursiva;
     color:rgb(255, 255, 255);
     text-shadow: 1px 1px 1px ;
+
 }
  th, td {
     border: 1px solid black;
@@ -243,4 +244,4 @@ footer{
     width: 100%;
 
     }
-}
+} */ */
