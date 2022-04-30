@@ -28,13 +28,13 @@ h1 {
 ul {
 
     list-style-type: none;
-    max-width:  53%;
+    max-width: 58%;
     height: 38px;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgba(38, 39, 38, 0.963);
-    width: 51%;
+    width: 60%;
     margin-left: auto;
     box-shadow: 0 15px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.626);
     position: sticky;
