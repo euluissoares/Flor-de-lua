@@ -128,7 +128,8 @@ select {
 }
 
 #portfolio {
-    margin-top: 25%;
+    margin-top: 15%;
+    margin-bottom: 6%;
     text-align: center;
     font-size: 40px;
     font-family: 'Cookie', cursiva;
@@ -136,11 +137,6 @@ select {
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px;
 }
-
-/* section {
-
-    margin-left: 15px;
-} */
 
 
 #img1 {
@@ -162,7 +158,6 @@ select {
     margin-right: 5%;
     margin-top: 10px;
     margin-bottom: 10px;
-
     width: 100px;
     height: 140px;
     box-shadow: 5px 10px 5px 5px rgb(0, 0, 0), 10px 15px 10px 0px rgb(0, 0, 0);
@@ -241,5 +236,34 @@ footer {
     background-color: rgba(32, 35, 37, 0.909);
     margin-top: 90px;
     max-width: 100%;
+    display:flex;
+    box-sizing: border-box;
+    
+
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+}
+
+#sobre{
+max-width: 50%;
+border-right: #363434b4 2px solid;
+
+}
+
+#midias{
+    float: right;
+    max-width: 50%;
+   
+    
+
+    
+}
+
+#imgfooter{
+    width: 110px;
+    float: left;
 
 }
