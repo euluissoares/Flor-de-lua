@@ -62,12 +62,12 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #000000cb;
-   
+
 
 }
 
 #img_principal {
-    
+
     margin-top: 10%;
     margin-left: 5%;
     width: 210px;
@@ -160,14 +160,14 @@ select {
 
 .img {
     margin-right: 3%;
-    margin-left: 5%;
+    margin-left: 2%;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100px;
     height: 140px;
     box-shadow: 5px 10px 5px 5px rgb(0, 0, 0), 10px 15px 10px 0px rgb(0, 0, 0);
     box-sizing: border-box;
-    
+
 }
 
 .meio {
@@ -241,13 +241,13 @@ td {
     padding: 10px;
 }
 
-iframe{
-    border-radius:12px;
-    width:40%;
-    height:70px; 
+iframe {
+    border-radius: 12px;
+    width: 40%;
+    height: 70px;
     position: fixed;
     bottom: 15px;
-    float:right ;
+    float: right;
 
 }
 
@@ -283,7 +283,7 @@ h3 {
     float: left;
     margin-top: 50%;
     margin-left: 3px;
-    
+
 }
 
 .insta {
@@ -294,67 +294,68 @@ h3 {
 
 }
 
-#insta{
+#insta {
     width: 100px;
-    
+
 }
-@media screen and ( max-width:679px){iframe
-    {
+
+@media screen and (max-width:679px) {
+    iframe {
         width: 0;
         height: 0;
     }
-    
+
 }
 
-@media screen and ( max-width:679px){footer
-    {
-        
-        height:220px ;
+@media screen and (max-width:679px) {
+    footer {
+
+        height: 220px;
     }
-    
+
 }
 
-@media only screen and (min-width:679px) {header
-    {
+@media only screen and (min-width:679px) {
+    header {
         height: 80px;
-        max-width:42%;
+        max-width: 42%;
         width: 100%;
     }
 }
 
-@media only screen and (min-width:679px) {h1
-    {
+@media only screen and (min-width:679px) {
+    h1 {
         font-size: 70px;
     }
 }
 
-@media only screen and (min-width:679px) {ul
-    {
+@media only screen and (min-width:679px) {
+    ul {
         max-width: 55%;
         height: 40px;
         width: 100%;
     }
 }
 
-@media only screen and (min-width:679px) {li a
-    {
+@media only screen and (min-width:679px) {
+    li a {
         padding: 10px 10px;
         font-size: 20px;
     }
 }
 
-@media only screen and (min-width:679px) {#img_principal
-    {
+@media only screen and (min-width:679px) {
+    #img_principal {
         margin-top: 70PX;
-        margin-left:100px ;
-        width:45%;
+        margin-left: 100px;
+        width: 45%;
         height: auto;
         border-radius: 0 250PX;
     }
 }
 
-@media only screen and (min-width:679px) {#cadastro
-    {
+@media only screen and (min-width:679px) {
+    #cadastro {
         background-image: url(../imagem/fundo1.jpg);
         background-color: #000000;
         padding: 20px;
@@ -365,8 +366,8 @@ h3 {
     }
 }
 
-@media only screen and (min-width:679px) {.mb
-    {
+@media only screen and (min-width:679px) {
+    .mb {
         font-size: 10px;
         padding: 10px;
         line-height: 20px;
@@ -374,29 +375,31 @@ h3 {
     }
 }
 
-@media only screen and (min-width:679px) {input, select
-    {
+@media only screen and (min-width:679px) {
+
+    input,
+    select {
         padding: 8px;
         width: 100%;
         margin-top: 5px;
     }
 }
 
-@media only screen and (min-width:679px) {input[type="submit"]
-    {
+@media only screen and (min-width:679px) {
+    input[type="submit"] {
         background-color: rgba(9, 9, 9, 0.951);
     }
 }
 
-@media only screen and (min-width:679px) {#portfolio
-    {
+@media only screen and (min-width:679px) {
+    #portfolio {
         margin-top: 10%;
         font-size: 70px;
     }
 }
 
-@media only screen and (min-width:679px) {.img
-    {
+@media only screen and (min-width:679px) {
+    .img {
         margin-left: 4%;
         margin-right: 0.3%;
         width: 200px;
@@ -404,106 +407,109 @@ h3 {
     }
 }
 
-@media only screen and (min-width:679px) {.img_radius
-    {
+@media only screen and (min-width:679px) {
+    .img_radius {
         height: 280px;
     }
 }
 
-@media only screen and (min-width:679px) {.img_radius_2
-    {
+@media only screen and (min-width:679px) {
+    .img_radius_2 {
         height: 280px;
     }
 }
 
-@media only screen and (min-width:679px) {.meio
-    {
+@media only screen and (min-width:679px) {
+    .meio {
         height: 280px;
-        
+
     }
 
 
-@media only screen and (min-width:679px) {table
-    {
-        height: 200px;
-    }
-}
-
-@media only screen and (min-width:679px) {caption
-    {
-        font-size: 70px;
-    }
-}
-
-@media only screen and (min-width:679px) {#sobre
-    {
-        font-size: 20px;
-        margin-left: 50px ;
-    }
-}
-
-@media only screen and (min-width:679px) {#imgfooter
-    {
-        width: 120px;
-        margin-top: 25%;
-        margin-left: 10px;
-    }
-}
-
-@media only screen and (min-width:679px) {.insta
-    {
-        margin: auto;
-    }
-}
-
-@media only screen and (min-width:679px) {iframe
-    {
-        width: 25%;
-    }
-}
-
-
-
-@media only screen and (min-width:1100px) {#img_principal
-    {
-        margin-top: 50PX;
-        width: 40%;
-        margin-left: 160px;
-    }
-}
-
-
-@media only screen and (min-width:1100px) {#cadastro
-    {
-        max-width:25%;
-        height: 440px;
-        padding: 25px;
-        margin-top: 10%;
+    @media only screen and (min-width:679px) {
+        table {
+            height: 200px;
+        }
     }
 
-}
-
-@media only screen and (min-width:1100px) {.mb
-    {
-        font-size: 18px;
-        padding: 15px;
-        line-height: 20px;
+    @media only screen and (min-width:679px) {
+        caption {
+            font-size: 70px;
+        }
     }
 
-}
-
-@media only screen and (min-width:1100px) {input, select
-    {
-        padding: 8px;
-        width: 100%;
-        margin-top: 10px;
+    @media only screen and (min-width:679px) {
+        #sobre {
+            font-size: 20px;
+            margin-left: 50px;
+        }
     }
-}
+
+    @media only screen and (min-width:679px) {
+        #imgfooter {
+            width: 120px;
+            margin-top: 25%;
+            margin-left: 10px;
+        }
+    }
+
+    @media only screen and (min-width:679px) {
+        .insta {
+            margin: auto;
+        }
+    }
+
+    @media only screen and (min-width:679px) {
+        iframe {
+            width: 25%;
+        }
+    }
 
 
 
-@media only screen and (min-width:1100px) {iframe
-    {
-       width: 20%;
+    @media only screen and (min-width:1100px) {
+        #img_principal {
+            margin-top: 50PX;
+            width: 40%;
+            margin-left: 160px;
+        }
+    }
 
-}
+
+    @media only screen and (min-width:1100px) {
+        #cadastro {
+            max-width: 25%;
+            height: 440px;
+            padding: 25px;
+            margin-top: 10%;
+        }
+
+    }
+
+    @media only screen and (min-width:1100px) {
+        .mb {
+            font-size: 18px;
+            padding: 15px;
+            line-height: 20px;
+        }
+
+    }
+
+    @media only screen and (min-width:1100px) {
+
+        input,
+        select {
+            padding: 8px;
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+
+
+
+    @media only screen and (min-width:1100px) {
+        iframe {
+            width: 20%;
+
+        }
+    }
