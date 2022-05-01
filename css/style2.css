@@ -315,7 +315,7 @@ h3 {
     {
         margin-top: 70PX;
         margin-left:100px ;
-        width: 45%;
+        width:45%;
         height: auto;
         border-radius: 0 250PX;
     }
@@ -326,7 +326,7 @@ h3 {
         background-image: url(../imagem/fundo1.jpg);
         background-color: #000000;
         padding: 20px;
-        max-width: 250px;
+        max-width: 25%;
         height: 400px;
         margin-right: 10%;
         margin-top: 15%;
@@ -431,3 +431,31 @@ h3 {
     }
 }
 
+
+@media only screen and (min-width:1100px) {#img_principal
+    {
+        margin-top: 50PX;
+        width: 40%;
+        margin-left: 160px;
+    }
+}
+
+
+@media only screen and (min-width:1100px) {#cadastro
+    {
+        max-width:29%;
+        height: 430px;
+        padding: 25px;
+        margin-top: 10%;
+    }
+
+}
+
+@media only screen and (min-width:1100px) {.mb
+    {
+        font-size: 18px;
+        padding: 24px;
+        line-height: 25px;
+    }
+
+}
