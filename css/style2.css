@@ -234,7 +234,7 @@ td {
 
 
 footer {
-    height: 230px;
+    height: 190px;
     background-color: rgba(32, 35, 37, 0.909);
     margin-top: 90px;
     max-width: 100%;
@@ -246,7 +246,7 @@ footer {
 }
 
 h3 {
-    text-align: center;
+
     padding: 0;
     margin: 0;
 }
@@ -255,28 +255,31 @@ h3 {
     text-align: center;
     margin: 0;
     padding: 10px;
-
-}
-
-#imgfooter {
-    width: 110px;
+    width: 60%;
     float: left;
 
 }
 
+#imgfooter {
+    width: 90px;
+    float: left;
+    margin-top: 50%;
+    margin-left: 3px;
+    
+}
+
 .insta {
-    float: right;
+    float: left;
     margin-right: 10px;
     box-sizing: border-box;
-    margin-top: 5px;
+    margin-top: 8%;
 
 }
 
 #insta{
+    width: 100px;
     
-    height: 100px;
 }
-
 @media only screen and (min-width:679px) {header
     {
         height: 60%;
