@@ -159,7 +159,7 @@ select {
 }
 
 .img {
-    margin-right: 5%;
+    margin-right: 8%;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 100px;
@@ -248,7 +248,7 @@ td {
 
 iframe{
     border-radius:12px;
-    width:50%;
+    width:40%;
     height:70px; 
     position: fixed;
     bottom: 15px;
@@ -301,6 +301,21 @@ h3 {
 
 #insta{
     width: 100px;
+    
+}
+@media screen and ( max-width:679px){iframe
+    {
+        width: 0;
+        height: 0;
+    }
+    
+}
+
+@media screen and ( max-width:679px){footer
+    {
+        
+        height:190px ;
+    }
     
 }
 
